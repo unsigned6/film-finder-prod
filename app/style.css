@@ -1,0 +1,31 @@
+#dropzone > div > div {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	padding: 40px;
+}
+
+#info > div {
+	min-height: 200px;
+}
+
+#info > div > div.panel-body {
+	height: 200px;
+	overflow: auto;
+}
+
+#film-list-panel > div.panel-body {
+	height: 500px;
+	overflow: auto;
+}
+
+#film-list-panel > div.panel-body > ul > li > span {
+	cursor: pointer;
+}
+
+#film-list-panel > div.panel-heading > div > input[type="text"] {
+	padding: 0 5px;
+}
+#film-list-panel > div.panel-heading > div > input[type="text"]:nth-child(1) {
+	margin-right: 20px;
+}

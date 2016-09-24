@@ -1,0 +1,11 @@
+#dropzone > div > div {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	padding: 40px;
+}
+
+#container > div > div:nth-child(2) > div.panel.panel-default > div.panel-body {
+	height: 400px;
+	overflow: auto;
+}
