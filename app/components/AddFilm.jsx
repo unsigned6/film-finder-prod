@@ -2,6 +2,7 @@ var React = require("react");
 var actions = require("../actions/FilmActions");
 
 module.exports = React.createClass({
+
     getInitialState:function(){
       return {
           title:"",
@@ -10,6 +11,7 @@ module.exports = React.createClass({
           stars:[]
       }  
     },
+
     addFilm:function(e){
         e.preventDefault();
         if(this.state.title === "" || this.state.year === "" || this.state.format === ""  || this.state.stars.length === 0){
@@ -24,6 +26,7 @@ module.exports = React.createClass({
           this.setState(this.getInitialState());
         }
     },
+
     handleInputChange:function(e){
       e.preventDefault();
       var name = e.target.name;
@@ -37,6 +40,7 @@ module.exports = React.createClass({
       }
       this.setState(state);
     },
+
     render:function(){
         return(
             <form className="form" onSubmit={this.addFilm}>

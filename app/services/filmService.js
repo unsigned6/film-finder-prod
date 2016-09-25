@@ -3,6 +3,7 @@ var promise = require("es6-promise");
 var resourceUrl = "http://localhost:7777/api/films";
 
 module.exports = {
+
     addFilm: function (film) {
         var Promise = promise.Promise;
         return new Promise(function (resolve, reject) {
@@ -17,6 +18,7 @@ module.exports = {
             });
         });
     },
+
     getFilms: function () {
         var Promise = promise.Promise;
         return new Promise(function (resolve, reject) {
@@ -29,6 +31,7 @@ module.exports = {
             });
         });
     },
+
     deleteFilm: function (film) {
         var Promise = promise.Promise;
         return new Promise(function (resolve, reject) {

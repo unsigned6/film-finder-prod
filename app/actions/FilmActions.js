@@ -12,11 +12,5 @@ module.exports = {
            film:film,
            type:"film:deleteFilm" 
         });
-    },
-    showFilm:function(film) {
-      dispatcher.dispatch({
-        film:film,
-        type:"film:showFilm"
-      });
     }
 }

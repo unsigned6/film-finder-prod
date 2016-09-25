@@ -1,6 +1,7 @@
 var React = require("react");
 
 module.exports = React.createClass({
+
   render:function () {
     return(
       <div className="panel panel-default">
@@ -24,26 +25,4 @@ module.exports = React.createClass({
       </div>
     )
   }
-/*    render:function(){
-        return(
-            <div className="panel panel-default">
-                <div className="panel-heading">
-                    {this.props.info.name}
-                </div>
-                <div className="panel-body">
-                    Year: {this.props.info.year}
-                    Format: {this.props.info.format}
-                    <ul>
-                        {
-                            this.props.info.actors.map(function (s, index) {
-                                return(
-                                    <li>s</li>
-                                )
-                            })
-                        }
-                    </ul>
-                </div>
-            </div>
-        )
-    }*/
 })

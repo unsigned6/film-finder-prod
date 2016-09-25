@@ -3,6 +3,7 @@ var Dropzone = require('react-dropzone');
 var actions = require("../actions/FilmActions");
 
 module.exports = React.createClass({
+
     getInitialState:function(){
       return {
         arrayToInsert: []

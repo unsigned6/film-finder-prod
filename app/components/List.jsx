@@ -1,7 +1,6 @@
 var React = require("react");
 var ReactDOM = require("react-dom");
 var ListItem = require("./ListItem.jsx");
-var actions = require("../actions/FilmActions");
 
 module.exports = React.createClass({
   render:function(){

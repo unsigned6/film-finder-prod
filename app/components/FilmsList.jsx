@@ -3,7 +3,6 @@ var ReactDOM = require("react-dom");
 var FilmInfo = require("./FilmInfo.jsx");
 var AddFilm = require("./AddFilm.jsx");
 var List = require("./List.jsx");
-var ListItem = require("./ListItem.jsx");
 var Dropzone = require("./Dropzone.jsx");
 
 module.exports = React.createClass({
