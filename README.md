@@ -13,7 +13,8 @@ deployed on Heroku with mLab: https://films-finder.herokuapp.com/
    npm start
 5. open in your browser:
    http://localhost:7777/index.html
-## local instance on MongoDB
+
+## local instance on MongoDB:
 By default app is connected to MongoDB deployed on https://mlab.com/.
 If for some reason mLab db will not be accessable you can run local mongod.
 1. For this cooment in /server/server.js 21 line containing
