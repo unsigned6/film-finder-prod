@@ -17,4 +17,5 @@ app.listen(7777, function () {
 });
 
 // Connect to mongodb database
-mongoose.connect("mongodb://localhost/filmfinder");
+//mongoose.connect("mongodb://localhost/filmfinder");
+mongoose.connect("mongodb://admin:s0_s3cr3t@ds023435.mlab.com:23435/film-finder");

@@ -1,4 +1,2 @@
-
-
 sudo mongod --dbpath server/data/ --nojournal
 nodemon ./server/server.js
