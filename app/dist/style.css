@@ -8,11 +8,11 @@
 }
 
 #info > div {
-	min-height: 200px;
+	min-height: 190px;
 }
 
 #info > div > div.panel-body {
-	height: 200px;
+	height: 149px;
 	overflow: auto;
 }
 
