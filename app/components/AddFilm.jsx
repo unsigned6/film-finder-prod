@@ -6,13 +6,14 @@ module.exports = React.createClass({
       return {
           title:"",
           year: "",
-          format:"",
+          format:"VHS",
           stars:[]
       }  
     },
     addFilm:function(e){
         e.preventDefault();
         if(this.state.title === "" || this.state.year === "" || this.state.format === ""  || this.state.stars.length === 0){
+          console.log("this.state: ", this.state);
           alert("Fields should not be blank.");
         } else {
           this.state.stars = this.state.stars.filter(v=>v!="");
